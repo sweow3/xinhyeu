@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Page</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .image {
+            max-width: 80%;
+            max-height: 60vh;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .button svg {
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="56.jpg" alt="Beautiful Image" class="image">
+        <a href="next.html" class="button">
+            Bấm và để thấy thêm thứ xinh
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.828 8l-4.95-4.95a.5.5 0 1 1 .707-.707l5.657 5.657a.5.5 0 0 1 0 .707l-5.657 5.657a.5.5 0 0 1-.707-.707L10.828 8z"/>
+            </svg>
+        </a>
+    </div>
+</body>
+</html>
